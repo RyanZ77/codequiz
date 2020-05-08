@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Coding Quiz</title>
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class ="highScores" id ="returnToGame">High Scores</div>
+		<div id="quizContainer" class="container">
+      <div class="title">Coding Quiz</div>
+      <div class="test">Test Your knowledge</div>
+      <button id="startBtn">Start Quiz</button>
+        <div id="timer">You have 60 Seconds</div>
+				<div id="question" class="question"></div>
+					<button class ="option"><input type="radio" name="option" value="1" /><span id="opt1"></span></button>
+					<button class ="option"><input type="radio" name="option" value="2" /><span id="opt2"></span></button>
+					<button class ="option"><input type="radio" name="option" value="3" /><span id="opt3"></span></button>
+					<button class ="option"><input type="radio" name="option" value="4" /><span id="opt4"></span></button>
+					<button id="nextBtn" class="next-btn" onclick="loadNextQuestion();">Submit Answer</button>
+					<div id="confirmAns"></div>	
+				</div>
+				<div id="result" class="container result" style="display:none;">
+        </div>
+        <script src="questions.js"></script>
+        <script src="script.js"></script>
+	</body>
+</html>

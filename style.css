@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    position: fixed;
+    text-align: center;
+}
+
+.title {
+	padding-top:20px;
+	text-align: center;
+	font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: red;
+}
+
+.test {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: initial;
+    padding-bottom: 20px;
+    color: red;
+}
+
+#startBtn {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    height: 50px;
+    width: 90px;
+}
+
+#startBtn:hover {
+    background-color: gray;
+    color: red;
+}
+
+#nextBtn {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    height: 30px;
+    width: 180px;
+    margin-top: 15px;
+}
+
+#nextBtn:hover {
+    background-color: gray;
+    color: red;
+}
+
+#timer {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    color: red;
+    font-size: x-large;
+    padding-top: 10px;
+}
+
+.question {
+	padding: 20px;
+	font-size: 22px;
+	background: gray;
+	border-radius: 20px;
+	margin: 10px 0 10px 0;
+	color: red;
+}
+
+.option {
+	width: 387px;
+	display: inline-block;
+	padding: 10px 0 10px 15px;
+	vertical-align: middle;
+	background: white;
+	margin: 10px 0 10px 10px;
+	color: black;
+    border-radius: 20px
+}
+
+#result {
+    font-size: 175px;
+}
+
+#confirmAns {
+    padding-top: 10px;
+    color: red;
+}
+
+.highScores {
+    font-size: 25px;
+    color: red;
+    text-transform: uppercase;
+    font-weight: initial;
+}
